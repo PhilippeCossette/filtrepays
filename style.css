@@ -14,10 +14,9 @@
   background-color: blue;
   color: white;
   padding: 20px;
-
   transition: all 0.2s linear;
 }
 
 .btn-pays:hover {
   background-color: rgb(191, 191, 225);
-}
+}/*# sourceMappingURL=style.css.map */

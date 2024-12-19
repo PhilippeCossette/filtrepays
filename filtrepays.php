@@ -8,12 +8,12 @@
 
 // Enqueue the necessary assets (styles and scripts)
 function destinations_par_pays_enqueue_assets() {
-    $version_css = filemtime(plugin_dir_path(__FILE__) . 'css/style.css');
+    $version_css = filemtime(plugin_dir_path(__FILE__) . 'style.css');
     $version_js = filemtime(plugin_dir_path(__FILE__) . 'js/main.js');
 
     wp_enqueue_style(
         'destinations-pays-style',
-        plugin_dir_url(__FILE__) . 'css/style.css',
+        plugin_dir_url(__FILE__) . 'style.css',
         array(),
         $version_css
     );
