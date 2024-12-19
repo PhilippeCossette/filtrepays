@@ -1,6 +1,4 @@
 (function () {
-  console.log("in-filtrepays");
-
   // Select all the country buttons
   const paysButtons = document.querySelectorAll(".btn-pays");
 
@@ -66,4 +64,6 @@
       resultsDiv.appendChild(destinationElement);
     });
   }
+
+  fetchDestinations("France");
 })();
